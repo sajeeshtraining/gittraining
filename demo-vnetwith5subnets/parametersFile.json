@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "VNet1"
+    },
+    "vnetAddressPrefix": {
+      "value": "172.0.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "172.0.0.0/28"
+    },
+    "subnet1Name": {
+      "value": "GatewaySubnet"
+    },
+    "subnet2Prefix": {
+      "value": "172.0.1.0/28"
+    },
+    "subnet2Name": {
+      "value": "SecurityTrust"
+    },
+    "subnet3Prefix": {
+      "value": "172.0.2.0/28"
+    },
+    "subnet3Name": {
+      "value": "SecurityUntrust"
+    },
+    "subnet4Prefix": {
+      "value": "172.0.3.0/28"
+    },
+    "subnet4Name": {
+      "value": "SecurityMGMT"
+    },
+    "subnet5Prefix": {
+      "value": "172.0.4.0/24"
+    },
+    "subnet5Name": {
+      "value": "SecurityTrust"
+    }
+  }
+}
